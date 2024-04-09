@@ -591,1412 +591,300 @@
     <!-- ======= About Section ======= -->
     <section id="filterNewProductByGroupPoduct" class="filterNewProductByGroupPoduct portfolio sections-bg">
       <div class="container" data-aos="fade-up">
-        <!-- Nav tabs -->
-        <ul class="nav  d-flex justify-content-around flex-wrap" id="myTabFilterNewProductByGroupPoduct" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="filerByAllProduct-tab" data-bs-toggle="tab" data-bs-target="#filerByAllProduct" type="button" role="tab" aria-controls="filerByAllProduct" aria-selected="true">Tất cả</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="filterByNamProduct-tab" data-bs-toggle="tab" data-bs-target="#filterByNamProduct" type="button" role="tab" aria-controls="filterByNamProduct" aria-selected="false">Nam</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="filterByNuProduct-tab" data-bs-toggle="tab" data-bs-target="#filterByNuProduct" type="button" role="tab" aria-controls="filterByNuProduct" aria-selected="false">Nữ</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="filterByBeTraiProduct-tab" data-bs-toggle="tab" data-bs-target="#filterByBeTraiProduct" type="button" role="tab" aria-controls="filterByBeTraiProduct" aria-selected="false">Bé trai</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="filterByBeGaiProduct-tab" data-bs-toggle="tab" data-bs-target="#filterByBeGaiProduct" type="button" role="tab" aria-controls="filterByBeGaiProduct" aria-selected="false">Bé trai</button>
-            </li>
+
+        <!-- NAV LINK -->
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Tất cả</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nữ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bé trai</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bé gái</a>
+          </li>
         </ul>
-        
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <!-- ALL -->
-            <div class="tab-pane active" id="filerByAllProduct" role="tabpanel" aria-labelledby="filerByAllProduct-tab" tabindex="0">
-                <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
-                    <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
-                        <span>Bộ lọc:</span>
-                        <div class="dropdown mx-3">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Khoảng giá
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Kích cỡ
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">11</button></li>
-                              <li><button class="dropdown-item" type="button">22</button></li>
-                              <li><button class="dropdown-item" type="button">33</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="filterNewProductBySort">
-                        <div class="dropdown">
-                            <div class="" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-filter"></i>
-                                Sắp xếp theo
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                    </div>
+
+        <!-- FILTER -->
+        <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
+          <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
+              <span>Bộ lọc:</span>
+              <div class="dropdown mx-3">
+                  <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Khoảng giá
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                  </ul>
+              </div>
+              <div class="dropdown">
+                  <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kích cỡ
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">11</button></li>
+                    <li><button class="dropdown-item" type="button">22</button></li>
+                    <li><button class="dropdown-item" type="button">33</button></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="filterNewProductBySort">
+              <div class="dropdown">
+                  <div class="" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-filter"></i>
+                      Sắp xếp theo
+                  </div>
+                  <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                    <li><button class="dropdown-item" type="button">Từ đến</button></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+        <!-- SESULT FILTER -->
+        <div class="row gy-4 portfolio-container">
+
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+            <div class="portfolio-wrap">
+              <div class="position-relative">
+                <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+                <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+                <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
                 </div>
-
-                <div class="row gy-4 portfolio-container">
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                      <div class="portfolio-wrap">
-                        <div class="position-relative">
-                          <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                          <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                          <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                          <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                        <div class="portfolio-wrap">
-                          <div class="position-relative">
-                            <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                            <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                          </div>
-                          <div class="portfolio-info">
-                            <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                            <div class="portfolio-info-color">
-                              <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                              </ul>
-                            </div>
-                            <div class="d-flex justify-content-start portfolio-info-price">
-                              <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                              <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                            </div>
-                          </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                                            
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->      
-
-                    <!-- Paging -->
-                    <div class="card-body">                                
-                        <nav aria-label="...">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                  <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                              <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#">
-                                  <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                    </div>
-        
-                </div><!-- End Portfolio Container -->
-
-            </div>
-                       
-            <!-- NAM -->
-            <div class="tab-pane" id="filterByNamProduct" role="tabpanel" aria-labelledby="filterByNamProduct-tab" tabindex="0">
-                <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
-                    <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
-                        <span>Bộ lọc:</span>
-                        <div class="dropdown mx-3">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Khoảng giá
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Kích cỡ
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">11</button></li>
-                              <li><button class="dropdown-item" type="button">22</button></li>
-                              <li><button class="dropdown-item" type="button">33</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="filterNewProductBySort">
-                        <div class="dropdown">
-                            <div class="" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-filter"></i>
-                                Sắp xếp theo
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
                 </div>
-
-                <div class="row gy-4 portfolio-container">
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                      <div class="portfolio-wrap">
-                        <div class="position-relative">
-                          <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                          <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                          <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                          <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                        <div class="portfolio-wrap">
-                          <div class="position-relative">
-                            <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                            <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                          </div>
-                          <div class="portfolio-info">
-                            <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                            <div class="portfolio-info-color">
-                              <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                              </ul>
-                            </div>
-                            <div class="d-flex justify-content-start portfolio-info-price">
-                              <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                              <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                            </div>
-                          </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                                            
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->      
-
-                    <!-- Paging -->
-                    <div class="card-body">                                
-                        <nav aria-label="...">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                  <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                              <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#">
-                                  <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                    </div>
-        
-                </div><!-- End Portfolio Container -->
+              </div>
             </div>
+          </div><!-- End Portfolio Item -->
 
-            <!-- NU -->
-            <div class="tab-pane" id="filterByNuProduct" role="tabpanel" aria-labelledby="filterByNuProduct-tab" tabindex="0">
-                <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
-                    <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
-                        <span>Bộ lọc:</span>
-                        <div class="dropdown mx-3">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Khoảng giá
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Kích cỡ
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">11</button></li>
-                              <li><button class="dropdown-item" type="button">22</button></li>
-                              <li><button class="dropdown-item" type="button">33</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="filterNewProductBySort">
-                        <div class="dropdown">
-                            <div class="" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-filter"></i>
-                                Sắp xếp theo
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                    </div>
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+              <div class="portfolio-wrap">
+                <div class="position-relative">
+                  <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+                  <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
                 </div>
-
-                <div class="row gy-4 portfolio-container">
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                      <div class="portfolio-wrap">
-                        <div class="position-relative">
-                          <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                          <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                          <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                          <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                        <div class="portfolio-wrap">
-                          <div class="position-relative">
-                            <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                            <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                          </div>
-                          <div class="portfolio-info">
-                            <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                            <div class="portfolio-info-color">
-                              <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                              </ul>
-                            </div>
-                            <div class="d-flex justify-content-start portfolio-info-price">
-                              <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                              <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                            </div>
-                          </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                                            
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmNu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->      
-
-                    <!-- Paging -->
-                    <div class="card-body">                                
-                        <nav aria-label="...">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                  <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                              <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#">
-                                  <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                    </div>
-        
-                </div><!-- End Portfolio Container -->
-            </div>
-
-            <!-- BE TRAI -->
-            <div class="tab-pane" id="filterByBeTraiProduct" role="tabpanel" aria-labelledby="filterByBeTraiProduct-tab" tabindex="0">
-                <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
-                    <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
-                        <span>Bộ lọc:</span>
-                        <div class="dropdown mx-3">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Khoảng giá
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Kích cỡ
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">11</button></li>
-                              <li><button class="dropdown-item" type="button">22</button></li>
-                              <li><button class="dropdown-item" type="button">33</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="filterNewProductBySort">
-                        <div class="dropdown">
-                            <div class="" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-filter"></i>
-                                Sắp xếp theo
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+                  <div class="portfolio-info-color">
+                    <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-start portfolio-info-price">
+                    <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                    <span class="portfolio-info-price-sale">2.000.000 đ</span>
+                  </div>
                 </div>
+              </div>
+          </div><!-- End Portfolio Item -->
+            
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->
+            
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->
+            
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->
+            
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->
 
-                <div class="row gy-4 portfolio-container">
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->
+                                  
+          <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
+          <div class="portfolio-wrap">
+              <div class="position-relative">
+              <img src="assets/img/portfolio/ao-khoac-chong-nang-nu-1.png" class="img-fluid" alt="">
+              <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
+              </div>
+              <div class="portfolio-info">
+              <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
+              <div class="portfolio-info-color">
+                  <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  </ul>
+              </div>
+              <div class="d-flex justify-content-start portfolio-info-price">
+                  <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
+                  <span class="portfolio-info-price-sale">2.000.000 đ</span>
+              </div>
+              </div>
+          </div>
+          </div><!-- End Portfolio Item -->      
 
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                      <div class="portfolio-wrap">
-                        <div class="position-relative">
-                          <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                          <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                          <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                          <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
+          <!-- Paging -->
+          <div class="card-body">                                
+              <nav aria-label="...">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+          </div>
 
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                        <div class="portfolio-wrap">
-                          <div class="position-relative">
-                            <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                            <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                          </div>
-                          <div class="portfolio-info">
-                            <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                            <div class="portfolio-info-color">
-                              <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                              </ul>
-                            </div>
-                            <div class="d-flex justify-content-start portfolio-info-price">
-                              <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                              <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                            </div>
-                          </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                                            
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenam.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->      
-
-                    <!-- Paging -->
-                    <div class="card-body">                                
-                        <nav aria-label="...">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                  <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                              <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#">
-                                  <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                    </div>
-        
-                </div><!-- End Portfolio Container -->
-            </div>
-
-            <!-- BE GAI -->
-            <div class="tab-pane" id="filterByBeGaiProduct" role="tabpanel" aria-labelledby="filterByBeGaiProduct-tab" tabindex="0">
-                <div class="filterNewProductByGroupPoduct-header d-flex flex-wrap justify-content-between align-items-center py-4">
-                    <div class="filterNewProductByPriceAndSize d-flex flex-wrap justify-content-between align-items-center">
-                        <span>Bộ lọc:</span>
-                        <div class="dropdown mx-3">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Khoảng giá
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn border rounded-4 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Kích cỡ
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">11</button></li>
-                              <li><button class="dropdown-item" type="button">22</button></li>
-                              <li><button class="dropdown-item" type="button">33</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="filterNewProductBySort">
-                        <div class="dropdown">
-                            <div class="" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-filter"></i>
-                                Sắp xếp theo
-                            </div>
-                            <ul class="dropdown-menu">
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                              <li><button class="dropdown-item" type="button">Từ đến</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gy-4 portfolio-container">
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                      <div class="portfolio-wrap">
-                        <div class="position-relative">
-                          <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                          <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                          <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                          <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                        <div class="portfolio-wrap">
-                          <div class="position-relative">
-                            <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                            <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                          </div>
-                          <div class="portfolio-info">
-                            <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                            <div class="portfolio-info-color">
-                              <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                              </ul>
-                            </div>
-                            <div class="d-flex justify-content-start portfolio-info-price">
-                              <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                              <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                            </div>
-                          </div>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                      
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->
-                                            
-                    <div class="col-xl-3 col-md-6 portfolio-item filter-do-nam">
-                    <div class="portfolio-wrap">
-                        <div class="position-relative">
-                        <img src="assets/img/portfolio/spmBenu.png" class="img-fluid" alt="">
-                        <div class="position-absolute z-3 top-0 rounded-3 text-bg-danger p-1 m-1">Hàng mới</div>
-                        </div>
-                        <div class="portfolio-info">
-                        <h4><a href="portfolio-details.html" title="More Details">Áo khoác chống nắng nữ main</a></h4>
-                        <div class="portfolio-info-color">
-                            <ul class="add-quicly-to-cart-color d-flex justify-content-start edit-portfolio-info-color">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            </ul>
-                        </div>
-                        <div class="d-flex justify-content-start portfolio-info-price">
-                            <span class="portfolio-info-price-main pe-3">2.000.000 đ</span>
-                            <span class="portfolio-info-price-sale">2.000.000 đ</span>
-                        </div>
-                        </div>
-                    </div>
-                    </div><!-- End Portfolio Item -->      
-
-                    <!-- Paging -->
-                    <div class="card-body">                                
-                        <nav aria-label="...">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                  <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active" aria-current="page">
-                              <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#">
-                                  <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                    </div>
-        
-                </div><!-- End Portfolio Container -->
-            </div>
         </div>
       </div>
     </section><!-- End About Section -->

@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: #000;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: red;
   outline: none;
   text-decoration: none;
 }
@@ -60,7 +60,7 @@ li {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #18d26e;
+  background: red;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -101,7 +101,7 @@ li {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #18d26e;
+  border-top: 6px solid red;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -210,7 +210,7 @@ li {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #18d26e;
+  color: red;
 }
 
 .navbar .dropdown ul {
@@ -245,7 +245,7 @@ li {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #18d26e;
+  color: red;
 }
 
 .navbar .dropdown:hover>ul {
@@ -391,7 +391,7 @@ li {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #18d26e;
+  color: red;
 }
 
 .navbar-mobile .getstarted,
@@ -426,7 +426,7 @@ li {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #18d26e;
+  color: red;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -577,12 +577,12 @@ li {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
+  background: red;
 }
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #18d26e;
+  color: red;
 }
 
 /*--------------------------------------------------------------
@@ -992,7 +992,7 @@ section {
   margin: 0;
   width: 72px;
   height: 72px;
-  background: #18d26e;
+  background: red;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -1022,16 +1022,16 @@ section {
 }
 
 .services .service-item:hover .details h3 {
-  color: #18d26e;
+  color: red;
 }
 
 .services .service-item:hover .details .icon {
   background: var(--color-white);
-  border: 2px solid #18d26e;
+  border: 2px solid red;
 }
 
 .services .service-item:hover .details .icon i {
-  color: #18d26e;
+  color: red;
 }
 
 .services .service-item:hover .img img {
@@ -1205,11 +1205,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #18d26e;
+  border: 1px solid red;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: red;
 }
 
 .portfolio-details .portfolio-info {
@@ -1424,7 +1424,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: red;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1444,7 +1444,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid red;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1523,12 +1523,12 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #18d26e;
+  color: red;
 }
 
 .blog .entry .entry-meta ul {
@@ -1574,11 +1574,11 @@ section {
   transition: 0.3s;
   font-size: 14px;
   border-radius: 50px;
-  border: 2px solid #18d26e;
+  border: 2px solid red;
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #18d26e;
+  background: red;
   color: #fff;
 }
 
@@ -1613,7 +1613,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #18d26e;
+  background-color: red;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1624,7 +1624,7 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #18d26e;
+  color: red;
   display: inline;
 }
 
@@ -1634,7 +1634,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1707,7 +1707,7 @@ section {
 }
 
 .blog .blog-author .social-links a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .blog-author p {
@@ -1753,7 +1753,7 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #18d26e;
+  color: red;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -1816,7 +1816,7 @@ section {
   border-radius: 50px;
   padding: 10px 30px;
   border: 0;
-  background-color: #18d26e;
+  background-color: red;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
@@ -1824,7 +1824,7 @@ section {
 }
 
 .blog .blog-pagination {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .blog-pagination ul {
@@ -1840,7 +1840,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-  color: #18d26e;
+  color: red;
   padding: 6px 20px;
   display: flex;
   align-items: center;
@@ -1851,7 +1851,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: #18d26e;
+  background: red;
   border-radius: 50px;
 }
 
@@ -1909,7 +1909,7 @@ section {
   font-size: 16px;
   padding: 0 30px;
   margin: -1px;
-  background: #18d26e;
+  background: red;
   color: #fff;
   transition: 0.3s;
   line-height: 0;
@@ -1939,7 +1939,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .sidebar .categories ul a span {
@@ -1969,7 +1969,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 .blog .sidebar .recent-posts time {
@@ -1998,7 +1998,7 @@ section {
   font-size: 14px;
   padding: 6px 20px;
   margin: 0 6px 8px 0;
-  border: 1px solid #18d26e;
+  border: 1px solid red;
   display: inline-block;
   border-radius: 50px;
   transition: 0.3s;
@@ -2006,7 +2006,7 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  background: #18d26e;
+  background: red;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2066,7 +2066,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid red;
 }
 
 #footer .footer-top .footer-info p {
@@ -2098,7 +2098,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
+  background: red;
   color: #fff;
 }
 
@@ -2126,7 +2126,7 @@ section {
 }
 
 #footer .footer-top h4::after {
-  background: #18d26e;
+  background: red;
   width: 60px;
 }
 
@@ -2159,7 +2159,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: red;
 }
 
 #footer .footer-top .footer-contact {
@@ -2181,7 +2181,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #18d26e;
+  background: red;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -2206,6 +2206,8 @@ section {
   color: #ddd;
 }
 
+
+
 /* ADD Loc SP*/
 .filterNewProductByGroupPoduct > .container > ul > li > button {
   min-width: 250px;
@@ -2213,4 +2215,18 @@ section {
   color: #000;
   border: 1px solid #ccc;
   border-radius: 10px;
+}
+
+
+/* ADD locSPTheoNhomDanhMuc */
+.groupProductContentImg > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.groupProductContentImg > a > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

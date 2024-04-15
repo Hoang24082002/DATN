@@ -442,6 +442,7 @@ li {
   background: #000;
   overflow: hidden;
   position: relative;
+  margin-top: 80px;
 }
 
 @media (max-height: 500px) {
@@ -2381,3 +2382,15 @@ section {
   background-color: red;
 }
 
+/* Thanh toán */
+section#info-delivery {
+  margin-top: 80px;
+}
+
+.list-product-in-cart,
+.payment-methods,
+.local-infor-details,
+.payment-result,
+.use-discount-code {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}

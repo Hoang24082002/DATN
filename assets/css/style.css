@@ -2383,7 +2383,8 @@ section {
 }
 
 /* Thanh toán */
-section#info-delivery {
+section#info-delivery,
+.account-container {
   margin-top: 80px;
 }
 
@@ -2391,6 +2392,7 @@ section#info-delivery {
 .payment-methods,
 .local-infor-details,
 .payment-result,
-.use-discount-code {
+.use-discount-code,
+.nav-account {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }

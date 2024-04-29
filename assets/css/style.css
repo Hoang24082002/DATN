@@ -2396,3 +2396,9 @@ section#info-delivery,
 .nav-account {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* dangky.html */
+#formRegisAccount {
+  width: 800px;
+  margin: 0 auto;
+}
